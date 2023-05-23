@@ -23,6 +23,56 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App{
+  margin: 0 auto;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.chat {
+  border: 1px solid black;
+  height: 70vh;
+  width: 30vw;
+  font-size: medium;
+}
+.chat-box{
+  overflow: scroll;
+  height: 60vh;
+  text-align: left;
+}
+
+.title-chat {
+  text-transform: uppercase;
+  margin: 0;
+  padding:0;
+}
+
+.title-sender{
+  margin: 0;
+  padding: 0;
+}
+
+.msg{
+  margin: 0;
+  padding: 0;
+}
+
+.wonder-word{
+  font-size: 1.7rem;
+  width: 30vw;
+  padding: 3rem;
+  border: 1px solid black;
+}
+
+.title-wonder{
+  text-transform: uppercase;
+}
+
+
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +85,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title-sender{
+  font-size: small;
+}
+
+.msg-box{
+  padding-bottom: 0.2em;
+  border-bottom: 3px solid paleturquoise;
+}
+
+button{
+  cursor: pointer;
 }
